@@ -1,27 +1,5 @@
-# Title
+# GPT-3.5 Turbo Demo
 
-*description*
+Integrating the OpenAI API into a React app
 
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
-
-## Extra Credit
-
-## Screenshots
-
-# Title
-
-*description*
-
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
-
-## Extra Credit
-
-## Screenshots
+[gpt-demo-6tuz.onrender.com](https://gpt-demo-6tuz.onrender.com)
