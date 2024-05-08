@@ -1,0 +1,76 @@
+:root {
+  text-size-adjust: 100%;
+  --theme: rgb(255, 238, 238);
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  background: var(--theme);
+  height: 100%;
+}
+
+#gpt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+
+#gpt>* {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+#controls {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-input {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+input {
+  flex-grow: 1;
+  font-size: 1.5em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.5em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-wrap: wrap;
+  overflow: auto;
+  padding: 20px;
+}
